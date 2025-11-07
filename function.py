@@ -15,3 +15,4 @@ def avg_cal(val1,val2=12):
 
 a=avg_cal(10)
 print(a)
+print(a)
