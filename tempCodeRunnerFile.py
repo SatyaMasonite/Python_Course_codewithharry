@@ -1,7 +1,4 @@
-list1=["apple","orange","banana","grapes"]
-inp=input("Enter list value you want to remove : ")
-for i in list1:
-    if inp in list1:
-        list1.remove(i)
-
-print(list1)
+addi = lambda x,y,z:x*y*z 
+# l1=[2,3,4]
+# x= map(addi,l1)
+# print(x)

@@ -3,6 +3,14 @@ dict_1 = {
     "age" : 20
 }
 
+for i,(j,k) in enumerate(dict_1.items()):
+    print(i ,j,k)
+
+# print(dict_1.items())
+
+# print(tuple(enumerate(dict_1.items())))
+
+
 # print(dict_1,type(dict_1))
 # print(dict_1["age"])
 
@@ -35,8 +43,8 @@ dict_1 = {
 # item_deleted = student.popitem()
 # print(item_deleted)
 
-s= {} # to create empty dictionary
-print(type(s))
+# s= {} # to create empty dictionary
+# print(type(s))
 
-d = set() # to create empty set 
-print(type(d))
+# d = set() # to create empty set 
+# print(type(d))
